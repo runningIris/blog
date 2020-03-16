@@ -33,7 +33,7 @@
   "license": "Proprietary",
   "scripts": {
     "build": "gatsby build",
-    "develop": "(PORT=3001 nohup npx netlify-cms-proxy-server &) && gatsby develop -H 0.0.0.0 -p 3000",
+    "develop": "(PORT=3003 nohup npx netlify-cms-proxy-server &) && gatsby develop -H 0.0.0.0 -p 3000",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
